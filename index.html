@@ -8,7 +8,7 @@
   <title>Js Test Quiz</title>
   </head>
   <body>
-    <div class="container">
+    <div class="container-fluid">
       <div class="row">
         <div class="col-md-12">
           <div class="top1">
@@ -20,16 +20,25 @@
       <div class="row">
         <div class="col-lg-6">
           <div class="quiz1">
-            <p>Lorem ipsum dolor sit, amet consectetur 
-              adipisicing elit. Numquam reprehenderit cum delectus ducimus tenetur voluptatibus dolorum ut aut sint dicta voluptas,
-               vel, laborum suscipit est quia minus culpa voluptatum consequatur.</p>
+            <h1>Here decisions are made</h1>
+            <form id="decider">
+              <label for="faviortenumber">Favorite Number</label>
+              <input id="faviortenumber" type="text">
+              <label for="martialart">Pick Destruction force.</label>
+              <select id="martialart">
+                <option value="karate">karate</option>
+                <option value="tkd">Taekwondo</option>
+              </select>
+              <button type="submit" class="btn">Pain O matic</button>
+            </form>
           </div>
         </div>
         <div class="col-lg-6">
           <div class="imagearea1">
-            <p>Lorem ipsum dolor sit, amet consectetur ad
-              ipisicing elit. Dignissimos animi iste, quasi dolor debitis officia deleniti placeat amet explicabo? Magni 
-              impedit sint, quo optio error consectetur numquam suscipit dolorum iusto?</p>
+            <div id="resultarea">
+              <img id="result1" src="https://cdn.pixabay.com/photo/2016/01/19/07/35/strength-1148029_960_720.jpg" alt="Fist punching through glass">
+              <img id="result2" src="https://cdn.pixabay.com/photo/2020/04/26/12/13/karate-5094953_960_720.png" alt="Martial arts kicks">
+            </div>
           </div> 
         </div>
       </div>

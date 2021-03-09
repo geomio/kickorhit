@@ -1,19 +1,43 @@
 body{
-  background-color:#F20519;
+  background-color:#D9B54A; 
 }
 
 .top1{
-  background-color:#D9B54A;
+  background-color:#F20519;
+  text-align: center;
+  font-size: 3em;
+  padding: 3%;
+  margin: 3%;
+  font-family: fantasy;
+  color: white;
+  text-decoration: dotted;
 }
 
 .quiz1{
-  background-color:#D90404;
+  background-color:#A67449;
+  font-weight: bolder;
+  color: white;
 }
 
 .imagearea1{
   background-color:#8C0303;
+  font-weight: bolder;
 }
 
 .bottom1{
-  background-color:#A67449;
+  background-color:#D90404;
+  font-weight: bolder;
+  color: white;
+}
+
+#resultarea{
+  background-color: white;
+}
+
+#result1{
+  display: none;
+}
+
+#result2{
+  display: none;
 }
