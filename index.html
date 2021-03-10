@@ -21,14 +21,21 @@
         <div class="col-lg-6">
           <div class="quiz1">
             <h1>Here decisions are made</h1>
-            <div id="quiz"></div>
-            <button id="submit">Continue</button>
+            <form id="decider">
+              <label for="faviortenumber">Favorite Number</label>
+              <input id="faviortenumber" type="text">
+              <label for="martialart">Pick Destruction force.</label>
+              <select id="martialart">
+                <option value="karate">karate</option>
+                <option value="tkd">Taekwondo</option>
+              </select>
+              <button type="submit" class="btn">Pain O matic</button>
+            </form>
           </div>
         </div>
         <div class="col-lg-6">
           <div class="imagearea1">
             <div id="resultarea">
-              <div id="results"></div>
               <img id="result1" src="https://cdn.pixabay.com/photo/2016/01/19/07/35/strength-1148029_960_720.jpg" alt="Fist punching through glass">
               <img id="result2" src="https://cdn.pixabay.com/photo/2020/04/26/12/13/karate-5094953_960_720.png" alt="Martial arts kicks">
             </div>
