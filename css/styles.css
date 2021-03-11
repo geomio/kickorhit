@@ -16,7 +16,17 @@ body{
 .quiz1{
   background-color:#A67449;
   font-weight: bolder;
+}
+
+#quizhead{
   color: white;
+  text-align: center;
+  font-size: xx-large;
+  border-radius: 10px;
+  margin: 4px;
+  padding: 4px;
+  background-color: darkorange;
+  font-family: fantasy;
 }
 
 .imagearea1{
